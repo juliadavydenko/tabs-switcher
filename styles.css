@@ -13,7 +13,25 @@ body {
   margin: 100px auto;
 }
 
-/* buttons */
-
-
+.buttons {
+  display: flex;
+}
+.buttons a {
+  color: #333;
+  text-decoration: none;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-right: 0;
+  border-bottom: 0;
+  flex-grow: 1;
+}
+.buttons a:last-child {
+border-right: 1px solid #ddd;
+}
+.buttons a:active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+}
 /* panels */
